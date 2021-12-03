@@ -1,0 +1,155 @@
+
+HR_your_ruler_will_die_soon = {
+	potential = {
+		always = yes
+	}
+	trigger = {
+		OR = {
+			has_heir_flag = the_sun_king
+			has_heir_flag = ivan_the_terrible
+			has_heir_flag = peter_the_great
+			has_heir_flag = carolus_rex
+			has_heir_flag = peter_the_bad
+		}
+	}
+	monarch_lifespan = -50
+}
+
+HR_suleyman_the_magnificent = {
+	potential = {
+		always = yes
+	}
+	trigger = {
+		has_ruler_flag = suleiman_the_magnificent
+	}
+	heir_chance = -1
+	monarch_lifespan = 15
+}
+
+HR_charles_v = {
+	potential = {
+		always = yes
+	}
+	trigger = {
+		has_ruler_flag = charles_v
+	}
+	monarch_lifespan = -1
+}
+
+HR_louis_xiv = {
+	potential = {
+		always = yes
+	}
+	trigger = {
+		has_ruler_flag = the_sun_king
+	}
+	monarch_lifespan = 15
+}
+
+HR_ivan_the_terrible = {
+	potential = {
+		always = yes
+	}
+	trigger = {
+		has_ruler_flag = ivan_the_terrible
+	}
+	monarch_lifespan = 10
+}
+
+HR_henry_viii = {
+	potential = {
+		always = yes
+	}
+	trigger = {
+		has_ruler_flag = henry_viii
+	}
+	heir_chance = -5
+	monarch_lifespan = -5
+}
+
+HR_mary_i = {
+	potential = {
+		always = yes
+	}
+	trigger = {
+		has_ruler_flag = bloody_mary
+	}
+	heir_chance = -15
+	monarch_lifespan = -10
+}
+
+HR_elizabeth_i = {
+	potential = {
+		always = yes
+	}
+	trigger = {
+		has_ruler_flag = virgin_queen
+	}
+	heir_chance = -25
+	monarch_lifespan = 15
+}
+
+HR_gustavus_adolphus = {
+	potential = {
+		always = yes
+	}
+	trigger = {
+		has_ruler_flag = gustavus_adolphus
+	}
+	heir_chance = 5
+	monarch_lifespan = -5
+}
+
+HR_augustus_ii = {
+	potential = {
+		always = yes
+	}
+	trigger = {
+		has_ruler_flag = augustus_ii
+	}
+	heir_chance = 15
+	reduced_liberty_desire_on_same_continent = 50
+}
+
+HR_peter_i = {
+	potential = {
+		always = yes
+	}
+	trigger = {
+		has_ruler_flag = peter_the_great
+	}
+	heir_chance = -5
+	monarch_lifespan = 15
+}
+
+HR_carolus_rex = {
+	potential = {
+		always = yes
+	}
+	trigger = {
+		has_ruler_flag = carolus_rex
+	}
+	heir_chance = -15
+	monarch_lifespan = -15
+}
+
+HR_friedrich_ii = {
+	potential = {
+		always = yes
+	}
+	trigger = {
+		has_ruler_flag = frederick_the_great
+	}
+	monarch_lifespan = 20
+}
+
+HR_yekaterina_i = {
+	potential = {
+		always = yes
+	}
+	trigger = {
+		has_ruler_flag = catherine_the_great
+	}
+	monarch_lifespan = 15
+	heir_chance = -5
+}
